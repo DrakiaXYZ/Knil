@@ -1,0 +1,21 @@
+============================================================
+The Adventures of Knil - User Manual
+============================================================
+	This game is your basic top-down console-style RPG. You
+play the character known as Knil as he tries to complete
+puzzles to help rescue the princess. Well, that's what it
+would have been if I had time to finish it. You actually get
+to finish one rather basic puzzle, and unlock a hidden easter
+egg.
+
+============================================================
+Controls
+============================================================
+F1 			- Ingame Help
+Arrow Keys 	- Move
+Escape 		- Quit
+
+============================================================
+Contact Information
+============================================================
+Lead Programmer: Steven "Drake" Scott - Drakia@gmail.com

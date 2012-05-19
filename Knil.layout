@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="Src\Game.Animation.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="913" topLine="23" />
+	</File>
+	<File name="Src\Game.Audio.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1145" topLine="30" />
+	</File>
+	<File name="Src\Game.Character.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="600" topLine="11" />
+	</File>
+	<File name="Src\Game.Core.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="1549" topLine="58" />
+	</File>
+	<File name="Src\Game.Dialog.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2777" topLine="56" />
+	</File>
+	<File name="Src\Game.Draw.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="1440" topLine="35" />
+	</File>
+	<File name="Src\Game.Functions.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="464" topLine="0" />
+	</File>
+	<File name="Src\Game.Input.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="148" topLine="0" />
+	</File>
+	<File name="Src\Game.Map.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="6033" topLine="201" />
+	</File>
+	<File name="Src\Game.NPC.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="364" topLine="0" />
+	</File>
+	<File name="Src\Game.NPC1.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2865" topLine="42" />
+	</File>
+	<File name="Src\Game.Player.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="523" topLine="0" />
+	</File>
+	<File name="Src\Game.Text.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="1055" topLine="20" />
+	</File>
+	<File name="Src\Include\Game.Animation.h" open="0" top="0" tabpos="5">
+		<Cursor position="446" topLine="5" />
+	</File>
+	<File name="Src\Include\Game.Audio.h" open="0" top="0" tabpos="0">
+		<Cursor position="292" topLine="0" />
+	</File>
+	<File name="Src\Include\Game.Character.h" open="0" top="0" tabpos="3">
+		<Cursor position="174" topLine="0" />
+	</File>
+	<File name="Src\Include\Game.Core.h" open="0" top="0" tabpos="4">
+		<Cursor position="349" topLine="7" />
+	</File>
+	<File name="Src\Include\Game.Dialog.h" open="0" top="0" tabpos="3">
+		<Cursor position="1057" topLine="23" />
+	</File>
+	<File name="Src\Include\Game.Draw.h" open="0" top="0" tabpos="6">
+		<Cursor position="87" topLine="0" />
+	</File>
+	<File name="Src\Include\Game.Functions.h" open="0" top="0" tabpos="0">
+		<Cursor position="159" topLine="0" />
+	</File>
+	<File name="Src\Include\Game.Help.h" open="0" top="0" tabpos="0">
+		<Cursor position="554" topLine="0" />
+	</File>
+	<File name="Src\Include\Game.Input.h" open="0" top="0" tabpos="3">
+		<Cursor position="337" topLine="0" />
+	</File>
+	<File name="Src\Include\Game.Map.h" open="0" top="0" tabpos="3">
+		<Cursor position="2428" topLine="72" />
+	</File>
+	<File name="Src\Include\Game.NPC.Item1.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="898" topLine="0" />
+	</File>
+	<File name="Src\Include\Game.NPC.Item3.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="201" topLine="0" />
+	</File>
+	<File name="Src\Include\Game.NPC.Tree.hpp" open="0" top="0" tabpos="0">
+		<Cursor position="394" topLine="0" />
+	</File>
+	<File name="Src\Include\Game.NPC.h" open="0" top="0" tabpos="8">
+		<Cursor position="690" topLine="19" />
+	</File>
+	<File name="Src\Include\Game.NPC1.h" open="0" top="0" tabpos="0">
+		<Cursor position="248" topLine="0" />
+	</File>
+	<File name="Src\Include\Game.Player.h" open="0" top="0" tabpos="5">
+		<Cursor position="399" topLine="0" />
+	</File>
+	<File name="Src\Include\Game.Text.h" open="0" top="0" tabpos="5">
+		<Cursor position="436" topLine="0" />
+	</File>
+	<File name="Src\Include\Game.Types.h" open="0" top="0" tabpos="3">
+		<Cursor position="571" topLine="16" />
+	</File>
+	<File name="Src\Main.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

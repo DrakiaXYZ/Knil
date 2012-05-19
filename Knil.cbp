@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Knil" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\Knil" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\Release\" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\Knil" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="bin\Release\" />
+				<Option object_output="obj\Release\" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="C:\CodeBlocks\MinGW\include" />
+			<Add directory="C:\CodeBlocks\Projects\Knil\Src\Include" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDLmain" />
+			<Add library="SDL.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add library="sdl_image" />
+			<Add library="sdl_mixer" />
+			<Add library="sdl_ttf" />
+			<Add directory="C:\CodeBlocks\MinGW\lib" />
+		</Linker>
+		<Unit filename="Src\Game.Animation.cpp" />
+		<Unit filename="Src\Game.Audio.cpp" />
+		<Unit filename="Src\Game.Character.cpp" />
+		<Unit filename="Src\Game.Core.cpp" />
+		<Unit filename="Src\Game.Dialog.cpp" />
+		<Unit filename="Src\Game.Draw.cpp" />
+		<Unit filename="Src\Game.Functions.cpp" />
+		<Unit filename="Src\Game.Input.cpp" />
+		<Unit filename="Src\Game.Map.cpp" />
+		<Unit filename="Src\Game.NPC.cpp" />
+		<Unit filename="Src\Game.NPC1.cpp" />
+		<Unit filename="Src\Game.Player.cpp" />
+		<Unit filename="Src\Game.Text.cpp" />
+		<Unit filename="Src\Include\Game.Animation.h" />
+		<Unit filename="Src\Include\Game.Audio.h" />
+		<Unit filename="Src\Include\Game.Character.h" />
+		<Unit filename="Src\Include\Game.Core.h" />
+		<Unit filename="Src\Include\Game.Dialog.h" />
+		<Unit filename="Src\Include\Game.Draw.h" />
+		<Unit filename="Src\Include\Game.Functions.h" />
+		<Unit filename="Src\Include\Game.Help.h" />
+		<Unit filename="Src\Include\Game.Input.h" />
+		<Unit filename="Src\Include\Game.Map.h" />
+		<Unit filename="Src\Include\Game.NPC.Item1.hpp" />
+		<Unit filename="Src\Include\Game.NPC.Item2.hpp" />
+		<Unit filename="Src\Include\Game.NPC.Item3.hpp" />
+		<Unit filename="Src\Include\Game.NPC.Tree.hpp" />
+		<Unit filename="Src\Include\Game.NPC.h" />
+		<Unit filename="Src\Include\Game.NPC1.h" />
+		<Unit filename="Src\Include\Game.Player.h" />
+		<Unit filename="Src\Include\Game.Text.h" />
+		<Unit filename="Src\Include\Game.Types.h" />
+		<Unit filename="Src\Main.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

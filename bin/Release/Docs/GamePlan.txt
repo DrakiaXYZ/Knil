@@ -1,0 +1,33 @@
+Game.Core
+ - Main function
+ - Game Loop
+ - Calls other classes
+ - Stores lists of objects, etc.
+
+Game.Character
+ - Stores player data, NPC data, mob data.
+ - tick() function, updates frames, etc.
+ 
+Game.Player
+ - Handles player input. Max movement per second??
+ - 
+
+Game.Map
+ - Stores tile information
+ - Stores a list of mobs/NPCs
+ - Keeps track of collisions between "objects"
+ - In charge of playing sounds?
+
+Game.Input
+ - Handles player input
+ - 
+
+Game.Draw
+ - Handles loading textures
+ - Handles drawing textures
+ - Built-in shape drawing ability, for debugging.
+ - Functions to clear screen, etc.
+ - Functions to load/draw fonts to a surface.
+
+Game.Functions
+ - Misc functions that won't fit anywhere else.

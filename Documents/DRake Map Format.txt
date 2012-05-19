@@ -1,0 +1,73 @@
+BString   =  [Byte len][Char*len string]
+WString   =  [Word len][Char*len string]
+DString   =  [Dword len][Char*len string]
+
+CHANGES
+---------------------
+Version 1		-	Initial Format
+Version 2		-	Removed +128 offset in tiles
+Version 3		-	Added Tileset File
+Version 4		-	Added default tile, drawn below for transparent tiles.
+Version 5		-	Moved blocking from per-tile to list.
+Version 6		-	Added Link List
+
+TODO
+---------------------
+Add NPCs
+Add Links
+
+FORMAT
+---------------------
+
+[3 Bytes] DRM	-	Header Indicator (DRake Map)
+[Byte]			-	Version Identifier
+[WString]		-	Tileset File (NULL terminated)
+[Byte]			-	Map Width / 16	(WIDTH)
+[Byte]			-	Map Height / 16	(HEIGHT)
+[Byte]			-	Default Tile TileSetX / 16
+[Byte]			-	Default Tile TileSetY / 16
+
+Loop For HEIGHT:
+
+	Loop For WIDTH:
+	
+		[Byte]	-	TileSetX / 16
+		[Byte]	-	TileSetY / 16
+		
+	End Loop
+	
+End Loop
+
+[Byte]			-	NPC Seperator ':'
+[Byte]			-	NPC Count (NPCCOUNT)
+
+Loop For NPCCOUNT:
+
+End Loop
+
+[Byte]			-	Link Seperator ':'
+[Byte]			-	Link Count (LINKCOUNT)
+
+Loop For LINKCCOUNT:
+	[Byte]		-	Link X / 16
+	[Byte]		-	Link Y / 16
+	[Byte]		-	Link W / 16
+	[Byte]		-	Link H / 16
+	[WString]	-	Dest Map
+	[Byte]		-	Dest X / 16
+	[Byte]		-	Dest Y / 16
+End Loop
+
+[Byte]			-	Block Seperator ':'
+[Byte]			-	Block Count (BLOCKCOUNT)
+
+Loop For BLOCKCOUNT:
+	
+	[Byte]		-	Block X / 16
+	[Byte]		-	Block Y / 16
+	[Byte]		-	Block W / 16
+	[Byte]		-	Block H / 16
+
+End Loop
+
+[Byte]			-	File End Identifier ':'

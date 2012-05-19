@@ -1,0 +1,25 @@
+BString   =  [Byte len][Char*len string]
+SString   =  [Word len][Char*len string]
+DString   =  [Dword len][Char*len string]
+
+
+[3 Bytes] KCA  	-	Header Indicator (Knil Character Animation)
+[Byte]  	   	-	Version Identifier
+[WString]      	-	Image File (NULL terminated)
+[Word]        	-	Number of animations (NUM)
+
+Loop For NUM:
+	
+	[Word]		-	Number of frames (NUMFRAMES)
+	Loop for NUMFRAMES:
+		
+		[Word]	-	Frame Time (MicroSec)
+		[Word]	-	Next Frame (0-indexed)
+		[Word]	-	Image X
+		[Word]	-	Image Y
+		[Word]	-	Image Width
+		[Word]	-	Image Height
+		
+	End Loop
+	
+End Loop
